@@ -1,0 +1,130 @@
+# Dark Sky API
+endpoint: https://api.darksky.net/forecast
+api_key: your_api_key
+lang: ru
+# Celsius and m/s
+units: si
+output:
+  brief: ./out/squeeze.html
+  summary: ./out/weather.html
+raw_dir: ./raw
+locations:
+  Irkutsk:
+    name: Иркутск
+    in_name: в Иркутске
+    anchor: irkutsk
+    latitude: 52.2896
+    longitude: 104.2806
+    sort_order: 20
+  Listvyanka:
+    name: Листвянка
+    in_name: в Листвянке
+    anchor: listvyanka
+    latitude: 51.8569
+    longitude: 104.8606
+    sort_order: 0
+  Khuzhir:
+    name: п. Хужир (о. Ольхон)
+    in_name: в п. Хужир (о. Ольхон)
+    anchor: khuzhir
+    latitude: 53.131
+    longitude: 107.33
+    sort_order: 1
+  Baykalsk:
+    name: Байкальск
+    in_name: в Байкальске
+    anchor: baikalsk
+    latitude: 51.5226
+    longitude: 104.1491
+    sort_order: 2
+  Turka:
+    name: Турка
+    in_name: в Турке
+    anchor: turka
+    latitude: 52.9507
+    longitude: 108.222
+    sort_order: 11
+  Posolskoe:
+    name: Посольское
+    in_name: в Посольском
+    anchor: posolskoe
+    latitude: 51.9662
+    longitude: 106.345
+    sort_order: 12
+  Ust-Barguzin:
+    name: Усть-Баргузин
+    in_name: в Усть-Баргузине
+    anchor: ust-barguzin
+    latitude: 53.4083
+    longitude: 109.0328
+    sort_order: 13
+  Severobaykalsk:
+    name: Северобайкальск
+    in_name: в Северобайкальске
+    anchor: severobaikalsk
+    latitude: 55.636
+    longitude: 109.3356
+    sort_order: 4
+  Nizhneangarsk:
+    name: Нижнеангарск
+    in_name: в Нижнеангарске
+    anchor: nangarsk
+    latitude: 55.7836
+    longitude: 109.5718
+    sort_order: 14
+  Kultuk:
+    name: Култук
+    in_name: в Култуке
+    anchor: kultuk
+    latitude: 51.7256
+    longitude: 103.7115
+    sort_order: 15
+  BolshieKoty:
+    name: Большие Коты
+    in_name: в Больших Котах
+    anchor: bigcats
+    latitude: 51.9069
+    longitude: 105.0706
+    sort_order: 3
+  BolshoeGoloustnoe:
+    name: Большое Голоустное
+    in_name: в Большом Голоустном
+    anchor: boslshoe-goloustnoe
+    latitude: 52.0398
+    longitude: 105.4067
+    sort_order: 5
+  Buguldeyka:
+    name: Бугульдейка
+    in_name: в Бугульдейке
+    anchor: buguldeyka
+    latitude: 52.5461
+    longitude: 106.0731
+    sort_order: 6
+  Yelansy:
+    name: Еланцы
+    in_name: в Еланцах
+    anchor: elanci
+    latitude: 52.8029
+    longitude: 106.4047
+    sort_order: 7
+  Zama:
+    name: Зама
+    in_name: в Заме
+    anchor: zama
+    latitude: 53.4611
+    longitude: 107.5044
+    sort_order: 8
+  Tankhoy:
+    name: Танхой
+    in_name: в Танхое
+    anchor: tanhoy
+    latitude: 51.5543
+    longitude: 105.1152
+    sort_order: 9
+  Gremyachinsk:
+    name: Гремячинск
+    in_name: в Гремячинске
+    anchor: gremyachinsk
+    latitude: 52.8
+    longitude: 107.95
+    sort_order: 10
